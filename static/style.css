@@ -101,6 +101,13 @@ section#inicio span#subtitle{
 .text-shadow{
     text-shadow: 4px 4px 10px #000000;
 }
+section#inicio div#arraste{
+    width: 9rem;
+}
+section#inicio div#arraste a{
+    text-decoration: none;
+    color: #fff;
+}
 i.menu-mobile {
     position: fixed;
     color: #fff;
@@ -143,4 +150,16 @@ i.menu-mobile {
         margin-left: 0;
     
     }
+}
+*::-webkit-scrollbar{
+    width: 10px;
+}
+*::-webkit-scrollbar-track{
+    width: 12px;
+    box-shadow: inset 0 0 .3rem #00000050;
+    background-color: #fff;
+}
+*::-webkit-scrollbar-thumb{
+    background-color: #252c90;
+    border-radius: 10%;
 }
